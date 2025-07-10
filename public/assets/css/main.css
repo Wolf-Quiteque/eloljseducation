@@ -13916,7 +13916,8 @@ code {
 }
 .return-customer-remember label::before {
   position: absolute;
-  content: url("../images/icons/check.html");
+  content: "\f00c";
+  font-family: var(--ff-fontawesome);
   top: 4px;
   left: 0;
   width: 18px;
