@@ -1,42 +1,15 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* styles/global.css */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Vendor CSS */
+@import url('../public/assets/css/vendor/bootstrap.min.css');
+@import url('../public/assets/css/vendor/animate.min.css');
+@import url('../public/assets/css/plugins/swiper.min.css');
+@import url('../public/assets/css/vendor/magnific-popup.css');
+@import url('../public/assets/css/vendor/fontawesome-pro.css');
+@import url('../public/assets/css/plugins/nouislider.min.css');
+@import url('../public/assets/css/vendor/icomoon.css');
+@import url('../public/assets/css/vendor/spacing.css');
+@import url('../public/assets/css/plugins/apexcharts.css');
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+/* Main Style */
+@import url('../public/assets/css/main.css');
